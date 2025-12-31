@@ -1,1 +1,143 @@
+/* Global Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #e0e0e0;
+    padding: 15px 0;
+    text-align: center;
+}
+.nav-link {
+    color: #000;
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+.hero-section h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.hero-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.hero-text {
+    flex: 1;
+}
+.hero-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.hero-text ul {
+    list-style-type: disc;
+    padding-left: 25px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.hero-image {
+    flex: 1;
+}
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Subscription Section */
+.subscription-section {
+    background: url('background-image.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 30px 20px;
+    position: relative;
+}
+.section-icon {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.subscription-section h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+.plans-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.plan-card {
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+}
+.plan-badge {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+.hot {
+    background-color: #4a90e2;
+    color: #000;
+    font-size: 16px;
+}
+.best-deal {
+    background-color: #4a90e2;
+    color: #000;
+    font-size: 16px;
+}
+.plan-card h3 {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.duration {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.buy-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
