@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+navbar { font-family: 'Open Sans', sans-serif; font-weight: 700; }
+hero-text h2  { font-family: 'Open Sans', sans-serif; font-weight: 400; }
+hero-text ul  { font-family: 'Open Sans', sans-serif; font-weight: 400; }
 /* Global Resets */
 * {
     margin: 0;
@@ -28,6 +33,7 @@
 .hero-section h1 {
     text-align: center;
     font-size: 28px;
+    font-family: 'Bodoni Moda', serif;
     margin-bottom: 20px;
 }
 .hero-content {
